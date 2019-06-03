@@ -26,5 +26,7 @@ If you want the site to look nice:
 * bower install
 * cd ../..
 * ln -s base/assets/bower_components static
+  * windows with elevated permissions: mklink /D static base\assets\bower_components
 * cd base/assets/css
 * sass site.scss site.css
+  * windows: ??? tried just a copy, didn't work, but maybe the symlink doesn't work the same on Windows
