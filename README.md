@@ -4,13 +4,13 @@ Leaderboard and Resource site for the Pokemon Go PvP Discord server.
 
 Running:
 * install python3: https://realpython.com/installing-python/
-  on Windows make sure to install for everyone and include path
+  * on Windows make sure to install for everyone and include path
 * install git: https://git-scm.com/downloads
 * clone this repo: git clone https://github.com/efenderbosch/pokemonpvp.club.git
 * install pip3
-  on Windows, first install C++ Build Tools
-  then download this: https://bootstrap.pypa.io/get-pip.py
-  then run this: python get-pip.py
+  * on Windows, first install C++ Build Tools
+  * then download this: https://bootstrap.pypa.io/get-pip.py
+  * then run this: python get-pip.py
 * pip3 install -r requirements.txt
 * python manage.py migrate
 * python manage.py loaddata pokemon/fixtures/pokemon.json
