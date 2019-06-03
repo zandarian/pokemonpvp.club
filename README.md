@@ -4,15 +4,19 @@ Leaderboard and Resource site for the Pokemon Go PvP Discord server.
 
 Running:
 * install python3: https://realpython.com/installing-python/
+  on Windows make sure to install for everyone and include path
 * install git: https://git-scm.com/downloads
 * clone this repo: git clone https://github.com/efenderbosch/pokemonpvp.club.git
-* install pip3: ???
+* install pip3
+  on Windows, first install C++ Build Tools
+  then download this: https://bootstrap.pypa.io/get-pip.py
+  then run this: python get-pip.py
 * pip3 install -r requirements.txt
-* python3 manage.py migrate
-* python3 manage.py loaddata pokemon/fixtures/pokemon.json
-* python3 manage.py loaddata pokemon/fixtures/type-matchups.json
-* python3 manage.py createcachetable
-* python3 manage.py runserver
+* python manage.py migrate
+* python manage.py loaddata pokemon/fixtures/pokemon.json
+* python manage.py loaddata pokemon/fixtures/type-matchups.json
+* python manage.py createcachetable
+* python manage.py runserver
 * access at http://127.0.0.1:8000/pvp/iv
 
 If you want the site to look nice:
